@@ -357,5 +357,6 @@ If you have any questions or need support, feel free to reach out through the fo
 
 GitHub Issues: Report bugs or request features.
 Community Forum: Join the community forum for discussions and support.
-Email: Contact us directly for more personalized help.[mallyac17@gmail.com]
+
+- Email: Contact us directly for more personalized help.    [mallyac17@gmail.com]    [linkedin.com/in/charles-mallya-a26530280]
 
