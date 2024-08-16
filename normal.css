@@ -1,0 +1,90 @@
+:root {
+  /* 🎨 SET A CUSTOM-COLOR-PALLETE */
+
+  /* Bg-colors */
+  --bg-primary: #6738ff;
+  --bg-white: #f9f9f9;
+  --moon-color: #fef6a2;
+  --bg-tertiary: #e7e9f5;
+  --bg-accent1: #fabe5a;
+  --bg-accent2: #35d4ac;
+  --bg-dark: #1b1b1b;
+
+  /* Text-colors */
+  --text-primary: #6738ff;
+  --text-secondary: #5e5e5e;
+  --text-tertiary: #cdced3;
+  --text-accent1: #e7e9f5;
+  --text-dark: #1b1b1b;
+
+  /* Border-color */
+  --border-color: #e3e3e3;
+  /* After-setting-you-can-access-all-these-variables-in-your-HTML-straight-forward */
+}
+
+/* Or set mini utilities for them like-this*/
+.bgw {
+  background-color: var(--bg-white);
+}
+.bgpr {
+  background-color: var(--bg-primary);
+}
+.bgb {
+  background-color: var(--bg-dark);
+}
+.tpr {
+  color: var(--text-primary);
+}
+.tsc {
+  color: var(--text-secondary);
+}
+.tac {
+  color: var(--text-accent1);
+}
+
+.overlap {
+  margin-left: -12px;
+}
+
+/* Extra-Art-Colors */
+.bg-skin {
+  color: #fa9884;
+  background: #ffc2ab;
+}
+.bg-skin2 {
+  color: #ffc2ab;
+  background: #fa9884;
+}
+
+/* SET A CUSTOM FONT FAMILY */
+/* Font-Family */
+* {
+  font-family: poppins, sans-serif;
+}
+
+/* SET-Custom Fonts-in-Folder */
+
+/* For H1 */
+@font-face {
+  font-family: "Heading1";
+  src: url(fonts/Headings1.otf);
+}
+/* For H2 */
+@font-face {
+  font-family: "Heading2";
+  src: url(fonts/Headings2.otf);
+}
+
+/* Animation-Combination-Power-Demo--Allows-Creative-FreeDom*/
+
+.square {
+  color: aliceblue;
+  font-family: "Courier New";
+  background: transparent;
+  transition: all 0.5s ease;
+}
+.square:hover {
+  color: rgb(255, 12, 32);
+  background: var(--background-color);
+  font-family: "poppins";
+}
