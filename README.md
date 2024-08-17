@@ -291,7 +291,8 @@ Create a rectangle with custom dimensions.
 - ``blue``: Applies a primary background color.
 
 
---Video
+![Demonstration GIF](img/slide2.gif)
+
 
 
 #### Circle (.circle:)
