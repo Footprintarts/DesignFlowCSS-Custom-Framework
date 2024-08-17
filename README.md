@@ -95,10 +95,10 @@ DesignFlow CSS offers a collection of simple, intuitive classes that make it eas
 </div>
 ```
 
-```flex```: Enables flexbox for the container.
-```items-cente```r: Vertically centers the content.
-```justify-between```: Distributes items evenly with space between.
-```p-20px```: Adds 20px padding.
+- ```flex```: Enables flexbox for the container.
+- ```items-cente```r: Vertically centers the content.
+- ```justify-between```: Distributes items evenly with space between.
+- ```p-20px```: Adds 20px padding.
 
 ### 2. Built-in Effects and Animations
 DesignFlow CSS includes built-in effects like Glassmorphism and Neumorphism, as well as animations that can be applied with just a single class.
@@ -110,9 +110,9 @@ Example: Glassmorphism Card
     <h2 class="fsz-24px">Welcome to DesignFlow</h2>
 </div>
 ```
-```glass```: Applies a frosted glass effect.
-```p-40px``` and ```m-20px```: Adds padding and margin for spacing.
-```fsz-24px```: Sets the font size to 24px.
+- ```glass```: Applies a frosted glass effect.
+- ```p-40px``` and ```m-20px```: Adds padding and margin for spacing.
+- ```fsz-24px```: Sets the font size to 24px.
 
 ### 3. Quick Prototyping
 The framework is designed with rapid prototyping in mind. You can swiftly create and test layouts, effects, and interactions without writing a single line of custom CSS.
@@ -122,9 +122,9 @@ Example: Neumorphism Button
 ```html
 <button class="neumorphism fsz-18px p-10px">Click Me</button>
 ```
-```neumorphism```: Gives the button a soft, raised look.
-```fsz-18px```: Sets the font size to 18px.
-```p-10px```: Adds 10px padding around the text.
+- ```neumorphism```: Gives the button a soft, raised look.
+- ```fsz-18px```: Sets the font size to 18px.
+- ```p-10px```: Adds 10px padding around the text.
 
 ### 4. Customization and Flexibility
 While DesignFlow CSS is powerful out-of-the-box, it’s also highly customizable. You can easily override or extend the default styles with your own custom CSS to match your project’s needs.
@@ -166,10 +166,10 @@ Example:
 ```
 In this example:
 
-```card``` describes the element as a card component.
-```details``` groups the text and description of the card.
-```time``` specifies the area where the time is displayed.
-```unread``` indicates the section that shows unread messages.
+- ```card``` describes the element as a card component.
+- ```details``` groups the text and description of the card.
+- ```time``` specifies the area where the time is displayed.
+- ```unread``` indicates the section that shows unread messages.
 
 #### 2. Benefits of Using Semantic Classes
 - Clarity: Your HTML becomes self-explanatory, making it easier to understand the structure and purpose of each element.
@@ -276,9 +276,9 @@ Create a rectangle with custom dimensions.
 ```html
 <div class="rect:200px,100px,blue"></div>
 ```
-``200px``: Sets the width to 200px.
-``100px``: Sets the height to 100px.
-``blue``: Applies a primary background color.
+- ``200px``: Sets the width to 200px.
+- ``100px``: Sets the height to 100px.
+- ``blue``: Applies a primary background color.
 
 #### Circle (.circle:)
 Create a perfect circle by applying equal width and height, with a border-radius of 50%.
@@ -286,8 +286,8 @@ Create a perfect circle by applying equal width and height, with a border-radius
 ```html
 <div class="circle:300px,pink"></div>
 ```
-``300px``: Sets both the width and height to 100px.
-``pink``: Applies a background-color.
+- ``300px``: Sets both the width and height to 100px.
+- ``pink``: Applies a background-color.
 
 
 #### Square (.sq:)
@@ -296,8 +296,8 @@ Create a square with equal width and height.
 ```html
 <div class="sq:200px,blue"></div>
 ```
-``200px``: Sets both the width and height to 150px.
-``blue``: Applies an accent background color.
+- ``200px``: Sets both the width and height to 150px.
+- ``blue``: Applies an accent background color.
 
 ---
 
@@ -347,9 +347,9 @@ To make the most out of DesignFlow CSS, consider the following best practices:
 6. Contributing to DesignFlow CSS
 If you’d like to contribute to the development of DesignFlow CSS, please follow these guidelines:
 
-1. Fork the Repository: Start by forking the DesignFlow CSS repository on GitHub.
-2. Create a Branch: Make your changes in a separate branch.
-3. Submit a Pull Request: Describe your changes and submit a pull request for review.
+- Fork the Repository: Start by forking the DesignFlow CSS repository on GitHub.
+- Create a Branch: Make your changes in a separate branch.
+- Submit a Pull Request: Describe your changes and submit a pull request for review.
 
 ---   
 ## 7. Getting Help
