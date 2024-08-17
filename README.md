@@ -262,7 +262,17 @@ Example:
     <p>Watch me bounce!</p>
 </div>
 ```
-In this example,``` bounce-in``` is a custom animation class that applies a bounce effect to the element.
+### 2. Built-in Animations
+DesignFlow CSS has cool built-in animations that can be easily integrated into your projects with the use of just class-names.
+
+Example:
+
+```html
+<div class="animated-element fade-in-first">
+    <p>Watch me bounce!</p>
+</div>
+```
+In this example,``` fade-in-first``` is a custom animation class that applies a fade-in effect to the element.
 
 ### 3 Basic Shapes
 DesignFlow CSS not only simplifies basic styling but also provides powerful classes for creating shapes and responsive layouts tailored to specific devices. Below are some of the advanced features that make your design process even more efficient.
@@ -279,6 +289,12 @@ Create a rectangle with custom dimensions.
 - ``200px``: Sets the width to 200px.
 - ``100px``: Sets the height to 100px.
 - ``blue``: Applies a primary background color.
+
+
+![Slide 2 GIF](img/slide2.gif)
+
+
+
 
 #### Circle (.circle:)
 Create a perfect circle by applying equal width and height, with a border-radius of 50%.
@@ -320,15 +336,15 @@ This class optimizes the layout for the iPhone 14 screen size, applying the dime
 mobile Layout (.mobile)
 Similar to the iPhone 14 class, but optimized for the Generic Mobile dimensions.
 
-html
-Copy code
+```html
 <div class="iphone14-pro bg-dark p-10px">
     <h2 class="text-center text-white">iPhone 14 Pro Layout</h2>
     <p>This layout is optimized for iPhone 14 Pro.</p>
 </div>
-bg-dark: Applies a dark background color.
-text-white: Sets the text color to white.
-p-10px: Adds 10px padding.
+```
+- ``bg-dark``: Applies a dark background color.
+- ``text-white``: Sets the text color to white.
+- ``p-10px``: Adds 10px padding.
 
 
 
@@ -338,9 +354,9 @@ p-10px: Adds 10px padding.
 ## 7. Best Practices
 To make the most out of DesignFlow CSS, consider the following best practices:
 
-- Use Semantic Classes: Keep your HTML clean and understandable by using semantic class names.
-- Customize Responsibly: Use the framework’s customization features to adapt styles while maintaining consistency.
-- Optimize Performance: Keep an eye on performance by avoiding unnecessary styles and ensuring efficient usage of classes.
+- **Use Semantic Classes**: Keep your HTML clean and understandable by using semantic class names.
+- **Customize Responsibly**: Use the framework’s customization features to adapt styles while maintaining consistency.
+- **Optimize Performance**: Keep an eye on performance by avoiding unnecessary styles and ensuring efficient usage of classes.
 
 ---
 
