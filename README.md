@@ -291,10 +291,7 @@ Create a rectangle with custom dimensions.
 - ``blue``: Applies a primary background color.
 
 
-<video width="320" height="240" controls>
-  <source src="img/Slide 2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+--Video
 
 
 #### Circle (.circle:)
