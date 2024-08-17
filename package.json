@@ -1,6 +1,6 @@
 {
   "name": "designflowcss",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "![DesignFlow Logo](img/banner.png)",
   "main": "designflow.js",
   "scripts": {
