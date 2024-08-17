@@ -6,7 +6,7 @@
 
 DesignFlow CSS is a lightweight, easy-to-use CSS framework designed to help developers rapidly prototype user interfaces while maintaining their creative freedom. Unlike other frameworks that may require complex configurations for advanced animations and effects, DesignFlow allows users to achieve stunning visuals with minimal effort. Whether you're a beginner or an experienced developer, DesignFlow empowers you to "Stay Creative" without compromising on design quality.
 
-## Tagline
+### Tagline
 
 **"Stay Creative"** – DesignFlow CSS ensures that you don’t lose your unique touch while building fast and responsive UIs.
 
@@ -18,7 +18,7 @@ DesignFlow CSS is a lightweight, easy-to-use CSS framework designed to help deve
 - **Customization Flexibility:** Seamlessly integrate DesignFlow with your custom CSS for enhanced creativity.
 - **Beginner-Friendly:** Easy to learn and use, even for those new to CSS frameworks.
 
----
+--
 
 ## 2. Getting Started
 
@@ -78,7 +78,7 @@ By following these steps, you can quickly set up a project with DesignFlow and b
 
 Preview:
 
-![Slide 3 GIF](img/slide3.gif)
+![Slide 3 GIF](img/intro.gif)
 
 ---
 
@@ -153,11 +153,15 @@ Example: Overriding Styles
 Adds a custom background color and border radius.
 ```
 
+--
+
 ### 4. Semantic Classes
+
+---
 
 One of the key concepts behind DesignFlow CSS is the use of semantic classes. These classes are named to represent the function or role of the element in your UI, making your HTML more meaningful and easier to work with. By using semantic class names, you can improve the clarity of your code and create a more maintainable and scalable design system.
 
-#### 1. What Are Semantic Classes?
+#### i. What Are Semantic Classes?
 
 Semantic classes are class names that reflect the purpose or identity of the element they are styling. Instead of using arbitrary or purely stylistic names, semantic classes describe what the element is or does.
 
@@ -190,17 +194,21 @@ In this example:
 - `time` specifies the area where the time is displayed.
 - `unread` indicates the section that shows unread messages.
 
-#### 2. Benefits of Using Semantic Classes
+_Preview:_
 
-- Clarity: Your HTML becomes self-explanatory, making it easier to understand the structure and purpose of each element.
-- Maintainability: It’s easier to manage and update your styles when your class names reflect the role of the elements they are applied to.
-- Scalability: As your project grows, semantic class names help you maintain a consistent naming convention, making your codebase more scalable.
+![Card GIF](img/card.gif)
 
-### 3. Examples of Semantic Classes in DesignFlow
+#### ii. Benefits of Using Semantic Classes
+
+- **Clarity**: Your HTML becomes self-explanatory, making it easier to understand the structure and purpose of each element.
+- **Maintainability**: It’s easier to manage and update your styles when your class names reflect the role of the elements they are applied to.
+- **Scalability**: As your project grows, semantic class names help you maintain a consistent naming convention, making your codebase more scalable.
+
+#### iii. Examples of Semantic Classes in DesignFlow
 
 Here are some examples of how semantic classes can be used in various contexts within DesignFlow CSS:
 
-1. Layout Grouping:
+a. **Layout Grouping**:
 
 ```html
 <div class="biggroup flex mb-10px">
@@ -228,7 +236,13 @@ In this example:
 - `group`: Represents a smaller grouping within the biggroup.
 - `button`: Clearly indicates a button element, simplifying identification.
 
-2. Title and Input Fields:
+here's a quick preview of this code:
+
+_Preview:_
+
+![Layout-1 GIF](img/layout1.gif)
+
+b. **Title and Input Fields:**
 
 ```html
 <div class="title flex items-center justify-between">
@@ -251,40 +265,49 @@ In this example:
 - `icon`: Represents an icon within the title.
 - `input`: Defines a styled input area for user interaction.
 
-3. Applying Semantic Classes in Your Projects
-   When using DesignFlow CSS, consider adopting semantic class names to keep your HTML clear and organized. Name your classes based on the component’s function, such as header, footer, content, or sidebar. This practice helps you and your team quickly grasp the structure and purpose of each part of your project.
+c. **Applying Semantic Classes in Your Projects**
 
----
+When using _DesignFlow CSS_,
+
+- consider adopting **semantic class names** to keep your HTML clear and organized.
+- Name your classes based on the component’s function, such as header, footer, content, or sidebar.
+
+- This practice helps you and your team _quickly grasp_ the _structure and purpose_ of each part of your project.
+
+--
 
 ## 4. Core Design Principles
 
 DesignFlow CSS is built on several core design principles that ensure its effectiveness and versatility. Understanding these principles will help you make the most of the framework and apply it effectively in your projects.
 
-### 1. Flexibility and Customization
+#### i. Flexibility and Customization
 
 DesignFlow CSS is designed to be highly flexible, allowing users to adapt the framework to their specific needs. Whether you're working on a simple landing page or a complex web application, you can easily customize the framework to fit your project’s requirements.
 
-2. Simplicity and Ease of Use
-   One of the main goals of DesignFlow CSS is to simplify the process of designing and prototyping. The framework provides easy-to-use utility classes and predefined styles to accelerate development without sacrificing creativity.
+#### ii. Simplicity and Ease of Use
+
+One of the main goals of DesignFlow CSS is to simplify the process of designing and prototyping. The framework provides easy-to-use utility classes and predefined styles to accelerate development without sacrificing creativity.
 
 Example:
 
 ```html
 <div class="container p-20px">
   <h1 class="fsz-36px">Welcome to DesignFlow</h1>
-  <button class="button bgc-primary text-white">Get Started</button>
+  <button class="button bgc-#f7f7f7 text-white">Get Started</button>
 </div>
 ```
 
-Here, `container, p-20px, fsz-36px, button, bgc-primary`, and `text-white` make it easy to apply consistent styles with minimal effort.
+Here, `container, p-20px, fsz-36px, button, bgc-#f7f7f7`, and `text-white` make it easy to apply consistent styles with minimal effort.
 
----
+--
 
 ## 5. Advanced Features
 
 DesignFlow CSS includes several advanced features to help you create more complex and visually appealing designs. These features are designed to be easy to implement and customize.
 
-### 1. Complex Animations
+### i. Complex Animations
+
+---
 
 DesignFlow CSS supports complex animations that can be easily integrated into your projects. Use predefined animation classes or create your own custom animations to add dynamic effects.
 
@@ -296,7 +319,9 @@ Example:
 </div>
 ```
 
-### 2. Built-in Animations
+### ii. Built-in Animations
+
+---
 
 DesignFlow CSS has cool built-in animations that can be easily integrated into your projects with the use of just class-names.
 
@@ -304,19 +329,21 @@ Example:
 
 ```html
 <div class="animated-element fade-in-first">
-  <p>Watch me bounce!</p>
+  <p>Watch me fade-in!</p>
 </div>
 ```
 
 In this example,` fade-in-first` is a custom animation class that applies a fade-in effect to the element.
 
-### 3 Basic Shapes
+### iii. Basic Shapes
+
+---
 
 DesignFlow CSS not only simplifies basic styling but also provides powerful classes for creating shapes and responsive layouts tailored to specific devices. Below are some of the advanced features that make your design process even more efficient.
 
 DesignFlow CSS includes predefined classes to easily create common geometric shapes such as rectangles, circles, and squares. These classes save time and ensure consistency in your designs.
 
-#### Rectangle (`.rect:`)
+#### a.) Rectangle (`.rect:`)
 
 Create a rectangle with custom dimensions.
 
@@ -328,9 +355,11 @@ Create a rectangle with custom dimensions.
 - `100px`: Sets the height to 100px.
 - `blue`: Applies a primary background color.
 
-![Slide 2 GIF](img/slide2.gif)
+_Preview:_
 
-#### Circle (.circle:)
+![Rectangle GIF](img/rect.gif)
+
+#### b.) Circle (.circle:)
 
 Create a perfect circle by applying equal width and height, with a border-radius of 50%.
 
@@ -341,7 +370,11 @@ Create a perfect circle by applying equal width and height, with a border-radius
 - `300px`: Sets both the width and height to 100px.
 - `pink`: Applies a background-color.
 
-#### Square (.sq:)
+_Preview:_
+
+![Circle GIF](img/circle.gif)
+
+#### c.) Square (.sq:)
 
 Create a square with equal width and height.
 
@@ -352,41 +385,58 @@ Create a square with equal width and height.
 - `200px`: Sets both the width and height to 150px.
 - `blue`: Applies an accent background color.
 
----
+_Preview:_
 
-### 4. Quick Mobile Dimensions
+![Square GIF](img/square.gif)
+
+--
+
+### iv. Quick Mobile Dimensions
+
+---
 
 DesignFlow CSS offers specific classes for laying out your designs on popular mobile devices, ensuring a seamless user experience across various screen sizes.
 
-iPhone 14 Layout (.iphone14)
+#### a.) iPhone 14 Layout (.iphone14)
+
 This class optimizes the layout for the iPhone 14 screen size, applying the dimensions of iphone14 quickly on your container.
 
 ```html
-<div class="iphone14 bg-light p-10px">
-  <h2 class="text-center">iPhone 14 Layout</h2>
+<div class="iphone14 bgc-white p-10px centered-col">
+  <h2>iPhone 14 Layout</h2>
   <p>This layout is tailored for iPhone 14.</p>
 </div>
 ```
 
-- `bg-light`: Applies a light background color.
+- `bgc-white`: Applies a white background color.
 - `p-10px`: Adds 10px padding.
-- `text-center`: Centers the text horizontally.
+- `centered-col`: Centers the text horizontally.
 
-mobile Layout (.mobile)
+_Preview:_
+
+![iPhone GIF](img/iphone.gif)
+
+#### b.) Mobile Layout (.mobile)
+
 Similar to the iPhone 14 class, but optimized for the Generic Mobile dimensions.
 
 ```html
-<div class="iphone14-pro bg-dark p-10px">
-  <h2 class="text-center text-white">iPhone 14 Pro Layout</h2>
-  <p>This layout is optimized for iPhone 14 Pro.</p>
+<div class="mobile bgc-#000 p-10px centered-col">
+  <h2 class="text-white">Generic mobile</h2>
+  <p>This layout is optimized for Generic</p>
 </div>
 ```
 
-- `bg-dark`: Applies a dark background color.
+- `bgc-#000`: Applies a dark background color.
 - `text-white`: Sets the text color to white.
 - `p-10px`: Adds 10px padding.
+- `centered-col`: Centers the text horizontally.
 
----
+_Preview:_
+
+![Mobile GIF](img/mobile.gif)
+
+--
 
 ## 7. Best Practices
 
@@ -396,22 +446,24 @@ To make the most out of DesignFlow CSS, consider the following best practices:
 - **Customize Responsibly**: Use the framework’s customization features to adapt styles while maintaining consistency.
 - **Optimize Performance**: Keep an eye on performance by avoiding unnecessary styles and ensuring efficient usage of classes.
 
----
+--
 
-6. Contributing to DesignFlow CSS
-   If you’d like to contribute to the development of DesignFlow CSS, please follow these guidelines:
+## 6. Contributing to DesignFlow CSS
 
-- Fork the Repository: Start by forking the DesignFlow CSS repository on GitHub.
-- Create a Branch: Make your changes in a separate branch.
-- Submit a Pull Request: Describe your changes and submit a pull request for review.
+If you’d like to contribute to the development of DesignFlow CSS, please follow these guidelines:
 
----
+- **Fork the Repository**: Start by forking the DesignFlow CSS repository on GitHub.
+- **Create a Branch**: Make your changes in a separate branch.
+- **Submit a Pull Request**: Describe your changes and submit a pull request for review.
+
+--
 
 ## 7. Getting Help
 
 If you have any questions or need support, feel free to reach out through the following channels:
 
-GitHub Issues: Report bugs or request features.
-Community Forum: Join the community forum for discussions and support.
+**GitHub Issues**: Report bugs or request features.
 
-- Email: Contact us directly for more personalized help. [mallyac17@gmail.com] [linkedin.com/in/charles-mallya-a26530280]
+**Email**: Contact us directly for more personalized help.
+
+- [mallyac17@gmail.com] [linkedin.com/in/charles-mallya-a26530280]
