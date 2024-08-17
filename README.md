@@ -290,7 +290,7 @@ Create a rectangle with custom dimensions.
 - ``100px``: Sets the height to 100px.
 - ``blue``: Applies a primary background color.
 
-![DesignFlow Rectangle](img/slide 2.mp4)
+![DesignFlow Rectangle](img/Slide 2.mp4)
 
 #### Circle (.circle:)
 Create a perfect circle by applying equal width and height, with a border-radius of 50%.
