@@ -24,34 +24,50 @@ DesignFlow CSS is a lightweight, easy-to-use CSS framework designed to help deve
 
 ### Installation
 
-To start using DesignFlow CSS, simply download the `designflow.css` and `designflow.js` files from the official repository (or provided download link).
+To start using DesignFlow CSS, you have two options: download the files directly or install via npm. Choose the method that best fits your workflow.
 
-#### Step 1: Download the Files
+#### Option 1: Direct Download
 
-1. Download the `designflow.css` and `designflow.js` files.
-2. Place them in your project’s directory, preferably in a `css` or `assets` folder for better organization.
+1. **Step 1: Download the Files**
 
-#### Step 2: Link the Files in Your HTML
+   - Download the `designflow.css` and `designflow.js` files from the official repository (or provided download link).
+   - Place them in your project’s directory, preferably in a `css` or `assets` folder for better organization.
 
-Include the DesignFlow CSS and JS files in the `<head>` section of your HTML document:
+2. **Step 2: Link the Files in Your HTML**
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🐣DesignFlow | QuickStart</title>
-    <!-- 🐣DesignFlowCss -->
-    <link rel="stylesheet" href="path/to/designflow.css" />
-    <link rel="stylesheet" href="path/to/your/normal.css" />
-    <script src="path/to/designflow.js" defer></script>
-  </head>
-  <body>
-    <!-- Your content goes here -->
-  </body>
-</html>
+   - Include the DesignFlow CSS and JS files in the `<head>` section of your HTML document:
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+     <head>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <title>🐣DesignFlow | QuickStart</title>
+       <!-- 🐣DesignFlowCss -->
+       <link rel="stylesheet" href="path/to/designflow.css" />
+       <link rel="stylesheet" href="path/to/your/normal.css" />
+       <script src="path/to/designflow.js" defer></script>
+     </head>
+     <body>
+       <!-- Your content goes here -->
+     </body>
+   </html>
+   ```
+
+#### Option 2: Install via npm
+
+**Step 1**: Install DesignFlow CSS
+
+i. Open your terminal and run the following command to install DesignFlow CSS via **npm**:
+
 ```
+npm install designflowcss
+```
+
+ii. After the installation, you should see `normal.css` and `quickstart.html` files in the root of your project directory, ready for use
+
+**\*Note**: The normal.css and quickstart.html files are automatically copied to your project's root directory, providing a ready-made setup to get started quickly.\*
 
 ### Basic Usage
 

@@ -693,6 +693,19 @@
 }
 /* End-mobile-canvas */
 
+/* Combination-classes */
+.centered-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centered-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* RESPONSIVE--------MEDIA-QUERIES---------UTILITY- */
 /* FOR---MOBILE-----SCREENS---------- */
 @media (max-width: 768px) {
