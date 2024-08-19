@@ -1,6 +1,6 @@
 {
   "name": "designflowcss",
-  "version": "1.0.0-beta.2",
+  "version": "2.0.0",
   "description": "A framework for designers with pre-configured CSS and JS files.",
   "main": "designflow.js",
   "scripts": {
